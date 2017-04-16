@@ -30,11 +30,11 @@ public class Menu extends AppCompatActivity {
         Tbh.addTab(tab2);
         Tbh.addTab(tab3);
 
-        Tbh.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
+        /*Tbh.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
             @Override
             public void onTabChanged(String tabId) {
                 Toast.makeText(getApplicationContext(),"pesta "+tabId+"pulsada",Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
     }
 }
